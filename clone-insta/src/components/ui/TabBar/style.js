@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 const style = StyleSheet.create({
   tabbar: {
     height: 70,
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     flexDirection: 'row',
   },
   tabIcon: {
