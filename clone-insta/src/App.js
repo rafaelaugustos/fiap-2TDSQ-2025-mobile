@@ -38,16 +38,13 @@ const App = () => {
       (item) => item.name.toLowerCase() === name.toLowerCase()
     )
 
-    for (let i = 0; i < pagesCopy; i++) {
-      console.log(i, 'i')
+    for (let i = 0; i < pagesCopy.length; i++) {
       pagesCopy[i].hidden = true
-      console.log(pagesCopy[i].hidden)
     }
 
     pagesCopy[index].hidden = false
 
     setPages(pagesCopy)
-    console.log(pages)
   }
 
   return (

@@ -9,7 +9,7 @@ const style = StyleSheet.create({
   },
   header: {
     width: '100%',
-    height: 35,
+    height: 45,
     backgroundColor: 'black',
   },
   imgContainer: {

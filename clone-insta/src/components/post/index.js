@@ -1,10 +1,13 @@
 import { View, Image } from 'react-native'
 import style from './style'
+import { ProfilePicture } from '../ui'
 
 const Post = () => {
   return (
     <View style={style.container}>
-      <View style={style.header}></View>
+      <View style={style.header}>
+        <ProfilePicture />
+      </View>
       <View style={style.imgContainer}>
         <Image
           source={{
